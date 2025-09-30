@@ -9,11 +9,11 @@ public class SimpleDerivative {
 
         int[] A = new int[N];
         System.out.println("Введите " + N + " чисел:");
-        for (int i = 0; i < N; i++) {
+        for (int i = 0; i < N; i++) {`
             A[i] = scanner.nextInt();
         }
 
-        int[] B = new int[N - 1];
+        int[] B = new int[N - 1];~
         for (int i = 0; i < N - 1; i++) {
             B[i] = (i + 1) * A[i + 1];
         }
